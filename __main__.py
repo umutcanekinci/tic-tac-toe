@@ -5,6 +5,7 @@ from PyGUI.PyWindow import Window
 
 
 class Game(Window):
+
     def __init__(self):
         super(Game, self).__init__("TicTacToe", [300, 500], "gray")
 
@@ -50,6 +51,7 @@ class Game(Window):
         #pygame.draw.line(self.Window, pygame.Color("black"), (175, 275), (175, 425), 5)
 
     def Music(self):
+        
         self.Tabs["Main"][3]["Images"]["NoMusic"].Show = not self.Tabs["Main"][3]["Images"]["NoMusic"].Show
 
 if __name__ == "__main__": Game()
