@@ -21,7 +21,7 @@ class Game(Window):
         self.CreateImage("Main", "Logo", [(self.Width - 300)//2, 20, 300, 75], "images/logo.png")
         self.CreateImage("Main", "Music", [240, 440, 48, 48], "images/music.png")
         self.CreateImage("Main", "NoMusic", [240, 440, 48, 48], "images/nomusic.png", Show=False)
-        self.CreateLabel("Main", "Maked by Lord Ch4os", "white", 17, ["Center", 470], FontPath)
+        self.CreateLabel("Main", "Made by Umutcan Ekinci", "white", 17, ["Center", 470], FontPath)
         self.CreateButton("Main", "Player vs. Computer", [(self.Width - 200)//2, 155, 200, 50], **ButtonProperties)
         self.CreateButton("Main", "Player vs. Player", [(self.Width - 200)//2, 225, 200, 50], **ButtonProperties)
         self.CreateButton("Main", "Exit", [(self.Width - 200)//2, 295, 200, 50], **ButtonProperties)
