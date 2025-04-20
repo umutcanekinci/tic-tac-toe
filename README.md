@@ -6,8 +6,8 @@ Unfortunately, this project has joined the list of games I've left unfinished. I
 
 ## Screenshots from the Game
 
-![Game Menu](https://github.com/umutcanekinci/tic-tac-toe/blob/main/images/sample1.png?raw=true)
 ![Gameplay](https://github.com/umutcanekinci/tic-tac-toe/blob/main/images/sample2.png?raw=true)
+![Game Menu](https://github.com/umutcanekinci/tic-tac-toe/blob/main/images/sample1.png?raw=true)
 
 ## Getting Started
 
