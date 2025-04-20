@@ -1,96 +1,99 @@
 # TicTacToe
 
-Bu projede, Python ile geliştirilmiş bir oyun bulunmaktadır. TicTacToe, sırayla boşlukları üçe üç ızgarada X veya O ile işaretleyen iki oyuncu için bir kağıt-kalem oyunudur. Bu projemde TicTacToe oyununun localde iki oyuncu ile oynanan bir dijital versiyonunu yapmak temel amacımdır.
+This project contains a game developed with Python. TicTacToe is a pencil-and-paper game for two players who take turns marking the spaces in a three-by-three grid with X or O. The main goal of this project is to create a digital version of TicTacToe that can be played locally by two players.
 
-Maalesef bu proje de yarım bıraktığım oyunlarım arasında yerini aldı. Menüsünü yaptım ancak oyunun kendisini de ileride bir gün bitiririm belki..
+Unfortunately, this project has joined the list of games I've left unfinished. I completed the menu, but perhaps I'll finish the game itself someday in the future.
 
-## Oyundan Görseller
+## Screenshots from the Game
 
-![alt text](https://github.com/umutcanekinci/tic-tac-toe/blob/main/images/sample1.png?raw=true)
-![alt text](https://github.com/umutcanekinci/tic-tac-toe/blob/main/images/sample2.png?raw=true)
+![Game Menu](https://github.com/umutcanekinci/tic-tac-toe/blob/main/images/sample1.png?raw=true)
+![Gameplay](https://github.com/umutcanekinci/tic-tac-toe/blob/main/images/sample2.png?raw=true)
 
-## Başlangıç
+## Getting Started
 
-### Gereksinimler
+### Requirements
 
-Projeyi çalıştırmak için aşağıdaki yazılımlara ihtiyacınız olacaktır:
+To run the project, you'll need the following software:
 
 - Python 3.x
-- Gerekli kütüphaneler (aşağıda listelenmiştir)
-    - pygame=2.5.2
+- Required libraries:
+    - pygame==2.5.2
 
-### Kurulum
+### Installation
 
-*Kurulum yapmadan derlenmiş edilmiş çalıştırılabilir uygulama ile devam etmek istiyorsanız kurulum aşaması atlayıp __main__.exe dosyasını çalıştırabilirsiniz.
+*Note: If you prefer to use the pre-compiled executable, you can skip the installation steps and run the `__main__.exe` file directly.*
 
-
-Gerekli kütüphaneleri yüklemek için aşağıdaki adımları izleyin:
-
-1. Bu projeyi klonlayın:
+1. Clone this repository:
     ```sh
     git clone https://github.com/umutcanekinci/tic-tac-toe.git
     cd tic-tac-toe
     ```
 
-2. Sanal ortam oluşturun:
+2. Create and activate a virtual environment:
     ```sh
     python -m venv venv
-    source venv/bin/activate # Windows kullanıyorsanız: venv\Scripts\activate
+    # On Windows:
+    venv\Scripts\activate
+    # On macOS/Linux:
+    source venv/bin/activate
     ```
 
-3. Gerekli paketleri yükleyin:
+3. Install required packages:
     ```sh
     pip install -r requirements.txt
     ```
 
-### Çalıştırma
+### Running the Game
 
-Oyunu çalıştırmak için şu komutu kullanın:
+Start the game with:
 ```sh
 python __main__.py
 ```
 
-### Kullanım
+### How to Play
 
 
 
-#### Kontroller: 
+#### Controls: 
 
-Sıra size geldiğinde ilgili bölmeye tıklayıp X ya da O işareti ekleyin ve rakipten önce 3'lü yaparak oyunu kazanın.
+Take turns with another player
 
-### Katkıda Bulunma
+Click on any empty square to place your mark (X or O)
 
-Katkıda bulunmak isterseniz, lütfen şu adımları izleyin:
+The first player to get 3 marks in a row (horizontally, vertically, or diagonally) wins
 
-1. Bu depoyu fork'layın (sağ üstteki Fork butonuna tıklayın).
+### Contributing
 
-2. Fork'ladığınız depoyu yerel makinenize klonlayın:
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository
+
+2. Clone the forked repostiory to your local machine:
 ```sh
-git clone https://github.com/umutcanekinci/tic-tac-toe.git
-cd tic-tac-toe
+    git clone https://github.com/umutcanekinci/tic-tac-toe.git
+    cd tic-tac-toe
 ```
 
-3. Yeni bir dal oluşturun (örn: feature/yenilik):
+3. Create your feature branch
 ```sh
-git checkout -b feature/yenilik
+    git checkout -b feature/your-feature
 ```
 
-4. Değişikliklerinizi yapın ve commit edin:
+4. Commit your changes
 ```sh
-git commit -am 'Yeni özellik ekledim'
+    git commit -am 'Add some feature'
 ```
 
-5. Değişikliklerinizi dalınıza iterek GitHub'a gönderin:
+5. Push to the branch
 ```sh
-git push origin feature/yenilik
+    git push origin feature/your-feature
 ```
 
-6. Pull request oluşturun.
+6. Open a Pull Request
 
-### Lisans
+### License
+Distributed under the MIT License. See LICENSE for more information.
 
-Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için LICENSE dosyasına bakabilirsiniz.
-
-### İletişim
-
-Sorularınız veya önerileriniz için umutcannekinci@gmail.com üzerinden iletişime geçebilirsiniz.
+### Contact
+Feel free for any recommendation and question.
+Umutcan Ekinci - umutcannekinci@gmail.com
